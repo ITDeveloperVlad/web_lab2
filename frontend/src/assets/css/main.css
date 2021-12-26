@@ -1,0 +1,204 @@
+.logo{
+  width:25%; float: left; font-size: 32px;
+}
+.logo1{
+  width:50%
+}
+.menu{
+  width:auto; float: left; margin-left: 3%; text-align: center; font-size: 20px; margin-top: 2%; color: white
+}
+.menu:hover{
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+.lk{
+  width:10%; float:right; margin-top:2%; cursor: pointer
+}
+.h4{
+  margin-top: 0;  text-align: center; color: white
+}
+.lk1{
+  width:25%; display: block; margin-left: auto;margin-right: auto;
+}
+body {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  margin:0;
+  font-family: 'Playfair Display', serif;
+}
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+}
+.container{
+  width:100%; margin-left: 0; z-index:1; float:left; margin-top:7%
+}
+
+.container_header{
+  position: relative; z-index: 1; width: 70%; margin-left: 15%; border: 1px solid white;
+}
+.text{
+  color:white; text-align: center; margin-top:2%; opacity: 1;
+}
+.expert{
+  width:70%; margin-left:15%; color:white; opacity: 1;
+}
+.h3{
+  margin-top:5%; opacity: 1;
+}
+
+.gradient-button {
+  position: relative;
+  z-index: 20;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 20px 30px;
+  margin-left: 26%;
+  margin-bottom: 2%;
+
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #1E90FF 0%, #4830F0 51%, #1E90FF  100%);
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+.gradient-button:hover {
+  background-position: right center; opacity: 1;
+}
+.container_free{
+  position: relative;
+  opacity: 1;
+  z-index: 1;
+  width: 70%;
+  margin-left: 15%;
+  border: 1px solid white;
+  margin-top:10%;
+
+}
+.free{
+  width: 33.1%; float: left; margin-top: 0; border: 1px solid black; border-bottom-width: 0;
+}
+.free1{
+  width: 100%;
+}
+.img_free1{
+  width:30%; float: left; margin:2%
+}
+.h_free1{
+  float: left; margin-top: 10%; margin-left: 3%;
+}
+.back{
+  z-index: -100; width: 100%; height: 100%; position: absolute; opacity: 0.4;
+}
+.back1{
+  z-index: -100; width: 100%; height: 170%; position: absolute;
+}
+.container_text{
+  position: relative; z-index: 1; width: 70%; margin-left: 15%; border: 1px solid white; margin-top:15%
+}
+.about{
+  text-align: center; font-size: 20px; color: white; line-height: 200%;
+}
+.container_courses{
+  position: relative; z-index: 1; width: 70%; margin-left: 15%;  margin-top:10%
+}
+.courses{
+  width:30%; background-color:#1E90FF; float: left; margin-left: 2%; position:relative;margin-top: 0;
+}
+.courses_img{
+  width:100%
+}
+.courses_h{
+  color: white; text-align: center;
+}
+.courses_text{
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+  top:0;
+  display:none;
+  background-color: #555555;
+}
+.courses:hover .courses_text{
+  display: block;
+}
+.footer{
+  width:100%;  background-color:#1E90FF; margin-top: 25%; bottom: 0; height: 70px;
+}
+.info{
+  width:50%; margin-left: 25%; background-color:#1E90FF; text-align: center; color: white; line-height: 200%;
+}
+.reg_button{
+  margin-left:18%; margin-bottom: 5%; margin-top: 5%; text-align: center; cursor: pointer;
+}
+
+.container_reg{
+  width:100%; margin-left: 0; z-index:1; float:left; margin-top:7%
+}
+
+.expert_reg{
+  width:70%; margin-left:20%; color:white; opacity: 1;
+}
+
+.container_header_reg{
+  position: relative; z-index: 1; width: 30%; margin-left: 35%; border: 1px solid white;
+}
+.footer_reg{
+  width:100%;  background-color:#1E90FF; bottom: 0; height: 100px; position: absolute;
+}
+.info_reg{
+  width:50%; margin-left: 25%; background-color:#1E90FF; text-align: center; color: white; line-height: 200%;  height: auto;
+}
+a{
+  text-decoration: none; color: white;
+}
+.container_text_coast{
+  position: relative; z-index: 1; width: 70%; margin-left: 15%; border: 1px solid white;
+}
+.container_coast{
+  width:100%; margin-left: 0; z-index:1; float:left;
+}
+.about_coast{
+  text-align: justify; font-size: 20px; color: white; line-height: 200%; margin-left:5%; margin-right: 5%;
+}
+.text_coast{
+  color:white; text-align: center; margin-top:2%; opacity: 1;
+}
+.courses_h1_coast{
+  color: white; text-align: center; background-color:#1E90FF; margin:0; height: 40px; line-height: 200%;
+}
+.courses_coast{
+  width:30%; background-color:white; float: left; margin-left: 2%; position:relative;margin-top: 0;
+}
+.courses_h_coast{
+  color: black; text-align: center;
+}
+.coast_img{
+  margin:10%; float: left;
+}
+.courses_h2_coast{
+  color: black; text-align: center; float: left; margin-top: 10%; cursor: pointer;
+}
+.courses_h3_coast{
+  color: black; text-align: center;  font-weight: unset; margin-top: 15%;
+}
+.container_coast_block{
+  position: relative; z-index: 1; width: 70%; margin-left: 15%;  margin-top:10%
+}
+.footer_coast{
+  width:100%;  background-color:#1E90FF; bottom: -60%; height: 100px; position: absolute;
+}
+.info_coast{
+  width:50%; margin-left: 25%; background-color:#1E90FF; text-align: center; color: white; line-height: 200%;  height: auto;
+}
