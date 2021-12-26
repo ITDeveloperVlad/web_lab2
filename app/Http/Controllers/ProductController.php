@@ -9,7 +9,9 @@ class ProductController extends Controller
 {
     public function list()
     {
-        return []
+        return Product::query()
+                    ->orderBy('created_at', 'desc')
+                    ->get();
     }
 
 
@@ -17,8 +19,8 @@ class ProductController extends Controller
     {
         return [
             'id' => $id,
-            'name' => 'Товар ' . $id,
-            'price' => 100
+            'name' => 'Курс ' . $id,
+            'price' => 4000
         ];
     }
 }

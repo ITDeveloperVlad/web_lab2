@@ -23,4 +23,8 @@ Route::prefix('products')->group(function () {
     Route::get('/{id}', [\App\Http\Controllers\ProductController::class, 'info']);
 });
 
+Route::prefix('contacts')->group(function () {
+    Route::get('/contact/all', [\App\Http\Controllers\ContactController::class, 'allData']);
+    Route::post('/contact/submit', [\App\Http\Controllers\ContactController::class, 'submit']);
+});
 
