@@ -28,3 +28,6 @@ Route::prefix('contacts')->group(function () {
     Route::post('/contact/submit', [\App\Http\Controllers\ContactController::class, 'submit']);
 });
 
+Route::post('/contact/submit'),function () {
+    return "Okey";
+});

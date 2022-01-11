@@ -202,3 +202,15 @@ a{
 .info_coast{
   width:50%; margin-left: 25%; background-color:#1E90FF; text-align: center; color: white; line-height: 200%;  height: auto;
 }
+
+.contact_form{
+    width:50%;  margin-bottom: 3%; margin-top: 3%;
+}
+
+.contact_label{
+    width:50%; margin-right: 5%; margin-bottom: 3%; margin-top: 3%;
+}
+
+.contact_button{
+    width:100px; text-align: center; margin-left: 27%; margin-bottom: 5%; margin-top: 5%;
+}

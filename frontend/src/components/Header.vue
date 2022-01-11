@@ -7,7 +7,7 @@
     <nav>
       <div class="menu"><router-link to="/">Главная</router-link></div>
       <div class="menu"><router-link to="/coast">Стоимость и оплата</router-link></div>
-      <div class="menu"><router-link to="/">Бесплатный урок</router-link></div>
+      <div class="menu"><router-link to="/contact">Контакты</router-link></div>
       <div class="menu"><router-link to="/">Вакансии</router-link></div>
     </nav>
     <div class="lk"> <router-link to="/reg">
